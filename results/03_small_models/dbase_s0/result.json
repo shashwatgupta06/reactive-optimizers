@@ -1,0 +1,12 @@
+{
+ "mode": "baseline",
+ "seed": 0,
+ "epochs": 100,
+ "updates": 11400,
+ "final_val_acc": 93.1472081218274,
+ "final_val_loss": 0.4816762783805731,
+ "final_test_acc": 92.41387887078722,
+ "final_test_loss": 0.512275608688011,
+ "train_seconds": 1406.1,
+ "wall_seconds": 1677.9
+}

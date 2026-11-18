@@ -1,0 +1,21 @@
+{
+ "mode": "reactive",
+ "name": "dreact_s0",
+ "seed": 0,
+ "arch": "dinov2_vits14",
+ "pretrained": true,
+ "optimizer": "adamw",
+ "epochs": 100,
+ "batch_size": 64,
+ "lr": 0.0001,
+ "momentum": 0.9,
+ "weight_decay": 0.05,
+ "warmup_epochs": 5,
+ "label_smoothing": 0.1,
+ "eval_every": 2,
+ "deterministic": false,
+ "decisions": 40,
+ "backend": "agent",
+ "agent_effort": "medium",
+ "max_cost_usd": null
+}

@@ -1,0 +1,21 @@
+{
+ "mode": "baseline",
+ "name": "r34base_s0",
+ "seed": 0,
+ "arch": "resnet34",
+ "pretrained": false,
+ "optimizer": "sgd",
+ "epochs": 200,
+ "batch_size": 64,
+ "lr": 0.05,
+ "momentum": 0.9,
+ "weight_decay": 0.0005,
+ "warmup_epochs": 5,
+ "label_smoothing": 0.1,
+ "eval_every": 5,
+ "deterministic": false,
+ "decisions": 40,
+ "backend": "agent",
+ "agent_effort": "medium",
+ "max_cost_usd": null
+}

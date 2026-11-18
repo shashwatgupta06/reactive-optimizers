@@ -1,0 +1,19 @@
+{
+ "mode": "reactive",
+ "seed": 0,
+ "epochs": 200,
+ "updates": 22800,
+ "final_val_acc": 87.56345177664974,
+ "final_val_loss": 0.7890353033385301,
+ "final_test_acc": 84.25568959084691,
+ "final_test_loss": 0.8856308311687271,
+ "train_seconds": 2407.7,
+ "wall_seconds": 2969.4,
+ "decisions": 16,
+ "decisions_planned": 40,
+ "swaps": 2,
+ "rollbacks": 0,
+ "program_version": 2,
+ "agent_cost_usd": 15.5139,
+ "agent_wait_seconds": 368.3
+}

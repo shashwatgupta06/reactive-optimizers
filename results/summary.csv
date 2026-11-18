@@ -1,0 +1,15 @@
+experiment,model,run,seed,setup,epochs,test_acc,val_acc,decisions,program_versions,agent_cost_usd,train_min,wall_min
+01_resnet50,ResNet-50 (from scratch),base_s0,0,fixed recipe,200,81.43,82.23,,,,39.6,43.2
+01_resnet50,ResNet-50 (from scratch),base_s1,1,fixed recipe,200,81.23,84.01,,,,39.6,43.2
+01_resnet50,ResNet-50 (from scratch),base_s2,2,fixed recipe,200,81.21,83.88,,,,39.6,43.2
+01_resnet50,ResNet-50 (from scratch),react_s0,0,"agent, $15 cap, original instructions",200,84.26,87.56,16,2,15.51,40.1,49.5
+01_resnet50,ResNet-50 (from scratch),react_s1,1,"agent, $15 cap, original instructions",200,81.51,82.23,16,1,16.1,40.1,48.4
+01_resnet50,ResNet-50 (from scratch),react_s2,2,"agent, no cap",200,87.9,89.72,41,4,80.17,40.3,55.4
+02_vit_b16,"ViT-B/16 (ImageNet-1k, fine-tuned)",vbase_s0,0,fixed recipe,100,89.24,90.23,,,,53.6,64.0
+02_vit_b16,"ViT-B/16 (ImageNet-1k, fine-tuned)",vreact_s0,0,"agent, no cap",100,89.76,90.1,40,4,81.65,54.2,74.1
+03_small_models,ResNet-34 (from scratch),r34base_s0,0,fixed recipe,200,82.29,83.76,,,,21.9,23.9
+03_small_models,ResNet-34 (from scratch),r34react_s0,0,"agent, no cap",200,85.79,87.18,40,1,66.91,22.6,32.5
+03_small_models,"MobileNetV3-Small (ImageNet-1k, fine-tuned)",mbbase_s0,0,fixed recipe,100,84.48,85.79,,,,2.7,3.2
+03_small_models,"MobileNetV3-Small (ImageNet-1k, fine-tuned)",mbreact_s0,0,"agent, no cap",100,81.68,82.23,41,6,84.92,2.9,14.3
+03_small_models,DINOv2 ViT-S/14 (fine-tuned),dbase_s0,0,fixed recipe,100,92.41,93.15,,,,23.4,28.0
+03_small_models,DINOv2 ViT-S/14 (fine-tuned),dreact_s0,0,"agent, no cap",100,93.98,94.42,41,1,62.16,23.5,35.4
